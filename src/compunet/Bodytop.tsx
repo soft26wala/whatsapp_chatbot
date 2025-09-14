@@ -1,4 +1,3 @@
-import React from 'react'
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
@@ -8,8 +7,6 @@ import Lista from './Lista';
 import AutoGrid from './AutoGrid';
 import Mid from './Mid';
 import Smallcomnet from './Smallcomnet';
-import Bigcomnet from './Bigcommnet';
-// import { createTheme, ThemeProvider } from "@mui/material";
 
 
 

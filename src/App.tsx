@@ -1,12 +1,9 @@
-import * as React from 'react';
-// import CheckIcon from '@mui/icons-material/Check';
 import './App.css'
-import Header from './compunet/header';
-import Bodytop from './compunet/bodytop';
+import Header from './compunet/Header';
+import Bodytop from './compunet/Bodytop';
 import { Routes, Route } from "react-router-dom";
-import Pricing from './pricing/pricing';
+import Pricing from './pricing/Pricing';
 import Demo from './demo/Demo';
-// import pricing from './pricing/';
 
 function App() {
 

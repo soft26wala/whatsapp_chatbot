@@ -1,8 +1,5 @@
-import * as React from 'react';
 import { styled } from '@mui/joy/styles';
 import Sheet from '@mui/joy/Sheet';
-// import Grid from '@mui/joy/Grid';
-// import Grid from '@mui/material/Grid';
 import ChatBubbleOutlineIcon from "@mui/icons-material/ChatBubbleOutline";
 import { Grid, Typography } from "@mui/material";
 import { Box } from "@mui/material";

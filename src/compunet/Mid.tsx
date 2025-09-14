@@ -1,4 +1,3 @@
-import * as React from 'react';
 import Button from '@mui/material/Button';
 import { styled } from '@mui/joy/styles';
 import Sheet from '@mui/joy/Sheet';
@@ -23,7 +22,7 @@ export default function Mid() {
         <Grid container spacing={{ lg: 2, xs: 6 }} sx={{ flexGrow: 1 }}>
             <Grid size={12}>
                 <Item sx={{}}> 
-                    <Typography variant="body2" color="text.secondary" sx={{ fontSize: { lg: "1.1rem", sm: "1.1rem", xs: "1rem" }, fontStyle: "normal", marginTop: {lg:"10px", sm:"-10px", xs:"-10px"}, width: { lg: "85vw", sm: "90%", xs: "100%" }, textAlign: "center", color: "#696969", fontWeight: "400"  }}>
+                    <Typography variant="body2" color="text.secondary" sx={{ fontSize: { lg: "1.1rem", sm: "1.1rem", xs: "1rem" }, fontStyle: "normal", marginTop: {lg:"10px", sm:"-10px", xs:"-10px"}, width: { lg: "85vw", sm: "90%", xs: "100%" }, textAlign: "center", color: "#696969", fontWeight: "400" , marginLeft: {lg:"5.5vw", sm:"-20px", xs:"0px"} }}>
                        &nbsp; Unlock our advanced drag-and-drop Flow Builder for just ₹1999/month and start automating support, lead qualification, and product guidance instantly.
                     </Typography></Item>
             </Grid>

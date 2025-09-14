@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import {
   Box,
   Grid,
@@ -35,7 +35,7 @@ export default function Demo() {
         <CardContent>
           <Grid container spacing={4} alignItems="center">
             {/* LEFT SIDE */}
-            <Grid item xs={12} md={6}>
+            <Grid size={{xs:12, md:6}}>
               <Box>
                 {/* Logo */}
                 <Box sx={{ mb: 2 }}>
@@ -76,7 +76,7 @@ export default function Demo() {
             </Grid>
 
             {/* RIGHT SIDE */}
-            <Grid item xs={12} md={6}>
+            <Grid size={{xs:12, md:6}}>
               <Box
                 sx={{
                   display: "flex",
