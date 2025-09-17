@@ -18,12 +18,13 @@ export default function Smallcomnet(props: {
   title: string;
   para: string;
   imgages: string;
+  mb: string | number;
 }) {
   return (
     <Grid container spacing={2} sx={{border: "1px solid lightgray", boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)" , borderRadius: "10px"}}>
   {/* Text Section */}
   <Grid size={12}>
-    <Item sx={{ textAlign: "left", padding: { lg: "20px", xs: "10px" } }}>
+    <Item sx={{ textAlign: "left", padding: { lg: "20px", xs: "10px" }, marginBottom: props.mb }}>
       <Typography variant="h5">{props.title}</Typography>
       <Typography variant="body2" color="text.secondary">
         {props.para}

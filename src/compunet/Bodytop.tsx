@@ -68,28 +68,30 @@ function Bodytop() {
                     <Grid size={{lg:5, xs:12, sm:6}} >
                         <Item elevation={0} ><Smallcomnet title="Turn Leads into Customers Effortlessly"
                             para="Let your chatbot do the heavy lifting by qualifying leads easily, driving conversions without human intervention."
-                            imgages="../../public/Screenshot 2025-09-12 115024.png"
-                             /> </Item>
+                            imgages="/Screenshot 2025-09-12 115024.png"
+                             mb="55px"/> </Item>
                     </Grid>
 
                     <Grid size={{lg:7, xs:12, sm:6}} >
                         
-                         <Item elevation={0} ><Smallcomnet title="Turn Leads into Customers Effortlessly"
-                            para="Let your chatbot do the heavy lifting by qualifying leads easily, driving conversions without human intervention."
-                            imgages="../../public/Screenshot 2025-09-12 115136.png"
-                            /> </Item>
+                         <Item elevation={0} ><Smallcomnet title="A Chatbot Builder for Non-techies"
+                            para="Build multiple WhatsApp Chatbots easily, thanks to a drag-and-drop interface that requires zero coding expertise."
+                            imgages="/Screenshot 2025-09-12 115136.png"
+                            mb="0" /> </Item>
                     </Grid>
 
                     <Grid size={{lg:7, xs:12, sm:6}} >
-                         <Item elevation={0} ><Smallcomnet title="Turn Leads into Customers Effortlessly"
-                            para="Let your chatbot do the heavy lifting by qualifying leads easily, driving conversions without human intervention."
-                            imgages="../../public/Screenshot 2025-09-12 115136.png" /> </Item>
+                         <Item elevation={0} ><Smallcomnet title="24x7 Support & Sales Automation on WhatsApp"
+                            para="Automate Support & Sales processes with dynamic Chatbots answering your customer's common queries, helping them arrive at the sales decision 3x faster!"
+                            imgages="/Screenshot 2025-09-17 123436.png" 
+                            mb="0"/> </Item>
                     </Grid>
 
                     <Grid size={{lg:5, xs:12, sm:6}} >
-                        <Item elevation={0} ><Smallcomnet title="Turn Leads into Customers Effortlessly"
-                            para="Let your chatbot do the heavy lifting by qualifying leads easily, driving conversions without human intervention."
-                            imgages="../../public/Screenshot 2025-09-12 115136.png" /> </Item>
+                        <Item elevation={0} ><Smallcomnet title="Seamless Integration with Business Tools"
+                            para="Connect your Chatbot with WhatsApp Catalogues & WhatsApp Pay to showcase your Catalogues & drive payments directly within WhatsApp. "
+                            imgages="/Screenshot 2025-09-12 123802.png"
+                            mb="106px" /> </Item>
                     </Grid>
                 </Grid>
             </Box>
