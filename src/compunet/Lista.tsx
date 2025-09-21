@@ -24,7 +24,7 @@ function Lista() {
             </List>
 
             <Box sx={{ display: 'flex', gap: 2, flexWrap: 'wrap' }}>
-                <Link to={'Demo'}> <Button sx={{padding: {lg:'0 14px 0 14px', xs: "0 8px 0 8px"}, fontSize: '1.2rem', background: "green", height:{lg:"53px"}, width:{lg:"177px"}}}>Start For Free 🔜</Button></Link>
+                <Link to={'Projects'}> <Button sx={{padding: {lg:'0 14px 0 14px', xs: "0 8px 0 8px"}, fontSize: '1.2rem', background: "green", height:{lg:"53px"}, width:{lg:"177px"}}}>Start For Free 🔜</Button></Link>
                <Link to={'Demo'}><Button sx={{padding: {lg:'0 14px 0 14px', xs: "0 8px 0 8px"}, fontSize: '1.2rem', background: "none" , color: "#000", border: "3px solid black", height:{lg:"53px"}, width:{lg:"177px"}}}>Book a demo</Button></Link> 
             </Box>
         </div>

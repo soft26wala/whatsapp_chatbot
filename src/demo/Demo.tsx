@@ -14,6 +14,8 @@ export default function Demo() {
   const [lang, setLang] = useState("");
 
   return (
+    <>
+    <p>tag panding design soon ...</p>
     <Box
       sx={{
         display: "flex",
@@ -33,9 +35,9 @@ export default function Demo() {
         }}
       >
         <CardContent>
-          <Grid container spacing={4} alignItems="center">
+          <Grid container spacing={4} alignItems="left">
             {/* LEFT SIDE */}
-            <Grid size={{xs:12, md:6}}>
+            <Grid size={{xs:12, md:6}} sx={{ textAlign: { xs: "left", md: "left" , lg:"left"}, borderRight: { xs: "none", md: "1px solid #e0e0e0", lg:"solid 0.5px #b7b7b7" }, pr: { md: 2, lg:0 }, padding:{lg:"100px 30px"} }}>
               <Box>
                 {/* Logo */}
                 <Box sx={{ mb: 2 }}>
@@ -50,7 +52,7 @@ export default function Demo() {
                 <Typography
                   variant="h6"
                   fontWeight="bold"
-                  sx={{ mb: 1 }}
+                  sx={{ mb: 1, fontSize: { lg: "1rem", md: "2rem" } }}
                 >
                   AiSensy Live Demo Call
                 </Typography>
@@ -59,7 +61,7 @@ export default function Demo() {
                 <Typography
                   variant="body1"
                   color="text.secondary"
-                  sx={{ mb: 2 }}
+                  sx={{ mb: 2, fontSize: { lg: "0.9rem", md: "1.2rem" } }}
                 >
                   Explore the game-changing features & benefits of AiSensy - #1
                   WhatsApp Marketing Platform and how AiSensy can help you boost
@@ -82,9 +84,10 @@ export default function Demo() {
                   display: "flex",
                   flexDirection: "column",
                   gap: 3,
+                  padding: {lg:"22px 26px 0 18px"}
                 }}
               >
-                <Typography variant="body1">
+                <Typography variant="body1" sx={{ fontSize: { lg: "1rem", md: "1.2rem" }, alignItems: "left" }}>
                   We offer AiSensy Demo in both Hindi & English. Please choose
                   the preferred language
                 </Typography>
@@ -123,5 +126,6 @@ export default function Demo() {
         </CardContent>
       </Card>
     </Box>
+    </>
   );
 }

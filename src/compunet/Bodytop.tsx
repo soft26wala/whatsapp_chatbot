@@ -7,6 +7,9 @@ import Lista from './Lista';
 import AutoGrid from './AutoGrid';
 import Mid from './Mid';
 import Smallcomnet from './Smallcomnet';
+import Midsecond from './Midsecond';
+import Listitem from './List/Listitem';
+import Header from './Header';
 
 
 
@@ -22,25 +25,13 @@ const Item = styled(Paper)(({ theme }) => ({
 }));
 
 
-// const theme = createTheme({
-//   breakpoints: {
-//     values: {
-//       xs: 0,
-//       sm: 600,
-//       custom: 700, // 👈 नया breakpoint
-//       md: 900,
-//       lg: 1200,
-//       xl: 1536,
-//     },
-//   },
-// });
-
-
 
 function Bodytop() {
 
     return (
         <>
+          <Header />
+
             <Box sx={{ flexGrow: 1 , alignItems : {xs: "center"} , width: {xs:"126vws"}}}>
                 <Grid container spacing={2} sx={{ boxShadow: "none" }}>
                     <Grid size={{ xs: 12, sm: 6 }} >
@@ -92,6 +83,23 @@ function Bodytop() {
                             para="Connect your Chatbot with WhatsApp Catalogues & WhatsApp Pay to showcase your Catalogues & drive payments directly within WhatsApp. "
                             imgages="/Screenshot 2025-09-12 123802.png"
                             mb="106px" /> </Item>
+                    </Grid>
+
+                      <Grid size={12} >
+                        <Item elevation={0} sx={{ fontSize: { lg: "3rem", sm: "2.2rem", xs: "1.75rem" }, marginBottom:{lg:"-16px"} ,color: "#000" }}>Founders & Marketers Love us</Item>
+                        <Midsecond />
+                    </Grid>
+
+                     <Grid size={12} >
+                        <Item elevation={0} sx={{ fontSize: { lg: "3rem", sm: "2.2rem", xs: "1.75rem" }, marginBottom:{lg:"-16px"} ,color: "#000" }}>How It Works</Item>
+                        
+                    </Grid>
+
+                      <Grid size={12} >
+                        <Item elevation={0} sx={{ fontSize: { lg: "3rem", sm: "2.2rem", xs: "1.75rem" }, marginBottom:{lg:"-16px"} ,color: "#000" }}>
+                            <Listitem />
+                        </Item>
+                        
                     </Grid>
                 </Grid>
             </Box>

@@ -4,7 +4,9 @@ import Button from '@mui/material/Button';
 
 function Header() {
   return (
-      <Alert variant="filled" severity="success" sx={{
+    <>
+
+      <Alert severity="success" sx={{
         bgcolor: "green.700", // Material color palette use करो या custom hex
         color: "white",
         maxHeight: {sm:"70px", xs:"30px", lg:"30px"},
@@ -21,7 +23,7 @@ function Header() {
         background: "linear-gradient(90deg,rgba(48, 155, 42, 1) 0%, rgba(80, 145, 107, 1) 0%, rgba(0, 38, 0, 1) 100%, rgba(158, 181, 159, 1) 16%);",
 
       }}>
-
+    
         Unlock AI advantage for your business at India’s Biggest AI event • 24 Sept 2025 <Button variant="contained"
           sx={{
             mx: {lg:7,  sm:3,  xs:1},
@@ -35,6 +37,7 @@ function Header() {
             height: {lg:"25px", sm:"25px", xs:"15px"},
           }}>Register</Button>
       </Alert>
+      </>
   )
 }
 
